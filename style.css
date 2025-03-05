@@ -1,0 +1,17 @@
+body {
+    background-image: url("img/Background.jpg");
+    background-repeat: repeat;
+    background-size:contain;
+    background-attachment: fixed;
+}
+
+.art {
+    position: absolute;
+    font-size: 300px;
+    width: 798px;
+    height: 615px;
+    top: 155px;
+    left: 315px;
+    overflow: scroll;
+    z-index: 1;
+}
