@@ -3,14 +3,43 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The web site of fruitconfit</title>
+    <title>KING AIDAN's COMICS</title>
     <!-- The style.css file allows you to change the look of your web pages.
          If you include the next line in all your web pages, they will all share the same look.
          This makes it easier to make new pages for your site. -->
     <link href="style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <div class="art">THIS WILL CON-<br>TAIN ART!</div>
-    <img src="img/sketchbook.png" width="1100px" style="position: absolute; top: 30px; left: 100px;">
+<div class="phonenavigation">
+<div class="phonelinks">
+  <a href="index" class="active">AIDAN VANDERWILL</a>
+
+  <div id="myLinks">
+    <a href="#">COMICS</a>
+    <a href="#">PAINTINGS</a>
+    <a href="#">MISCELLANEOUS</a>
+  </div>
+  
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+</div>
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+</script>
+
+  <div class="art">THIS WILL CON-<br>TAIN ART!</div>
+  <img src="img/sketchbook.png" class="sketchbook">
+
   </body>
 </html>
