@@ -8,10 +8,11 @@ body {
 .art {
     position: absolute;
     font-size: 300px;
-    width: 798px;
+    width: 799px;
     height: 615px;
-    top: 155px;
-    left: 315px;
+    top: 165px;
+    left: 361px;
     overflow: scroll;
+    /* transform: translate(-50%, -50%); */
     z-index: 1;
 }
