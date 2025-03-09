@@ -3,6 +3,7 @@ body {
     background-repeat: repeat;
     background-size:contain;
     background-attachment: fixed;
+    padding: 0;
 }
 
 .art {
@@ -17,8 +18,11 @@ body {
 }
 
 .sketchbook {
+    background-image: url("img/sketchbook.png");
+    background-size: cover;
     position: absolute;
     width: 1100px;
+    height: 758px;
     top: 30px;
     left: 100px;
     z-index: -5;
@@ -27,17 +31,24 @@ body {
 .phonenavigation {
     position: fixed;
     width: 89%;
-    top: 50px;
+    top: 80px;
     left: 17px;
     display: none;
 }
 
+.hiding {
+    display: inherit;
+  }
+
 @media only screen and (max-width: 600px) {
 
+.hiding {
+    display: none;
+}
+
 .art {
-    font-size: 100px;
     width: 85.4vw;
-    height: 80vh;
+    height: 78vh;
     top: 52.2%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -45,12 +56,14 @@ body {
 }
 
 .sketchbook {
-    width: 110vh;
-    height: 110vw;
-    top: 10%;
-    left: -40%;
+    background-image: url("img/sketchbook-phone.png");
+    background-size: cover;
+    position: absolute;
+    width: 95vw;
+    height: 100vh;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    transform: rotate(90deg);
 }
 
 .phonenavigation {
@@ -59,7 +72,8 @@ body {
 
 .phonelinks #myLinks {
     display: none;
-    background-image: url("img/paper.png");
+    background-color: #F3F3F7;
+    border: 1px solid black;
 }
   
 
