@@ -31,8 +31,9 @@ body {
 .phonenavigation {
     position: fixed;
     width: 89%;
-    top: 80px;
-    left: 17px;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, 0);
     display: none;
 }
 
