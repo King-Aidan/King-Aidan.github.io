@@ -5,13 +5,20 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Numbers';
+  font-style;
+  src: url('../String Round.otf') format('truetype');
+  unicode-range: U+30-39;
+}
+
 body {
     background-image: url("../img/Background.jpg");
     background-repeat: repeat;
     background-size:contain;
     background-attachment: fixed;
     margin: 0;
-    font-family: 'Aidan';
+    font-family: 'Aidan', 'Numbers';
 }
 
 .art {
