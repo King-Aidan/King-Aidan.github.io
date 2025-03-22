@@ -103,6 +103,14 @@ body {
 }
 
 
+#home {
+  position: absolute;
+  top: 3px;
+  left: 470px;
+  width: 940px;
+  height: 151px
+}
+
 .phonenavigation {
     display: initial;
 }
