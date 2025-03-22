@@ -9,19 +9,74 @@
   </head>
 
   <style>
-    img:active {
+/* #p1 {
+  display:none;
+  top: 50%;
+  left: 50%;
+  transform: scale(2); 
+  border: 100vw solid rgba(0, 0, 0, 0.8);
+  z-index: 0;
+}
+#p2 {
+  display:none;
+  top: 20%;
+  left: 20%;
+  transform: scale(2); 
+  border: 100vw solid rgba(0, 0, 0, 0.8);
+  z-index: 0;
+} */
+img:active {
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1.4); 
     border: 100vw solid rgba(0, 0, 0, 0.8);
 }
-  </style>
+
+</style>
+
+<!-- <script>
+
+    function enlargep1()
+    {
+        var here = new String();
+        here = document.getElementById("p1").style.display;
+
+        if(here == "none" || here == "")
+        {
+            document.getElementById("p1").style.display = "block";
+        }
+        else
+        {
+            document.getElementById("p1").style.display = "none";
+        }
+    }
+    
+    function enlargep2()
+    {
+        var there = new String();
+        there = document.getElementById("p2").style.display;
+
+        if(there == "none" || here == "")
+        {
+            document.getElementById("p2").style.display = "block";
+        }
+        else
+        {
+            document.getElementById("p2").style.display = "none";
+        }
+    }
+</script> -->
+
   <body>
+    <!-- <img src="img/Harlege6.jpg" height="500" id="p1">
+    <img src="img/Harlege10.jpg" height="500" id="p2"> -->
+
 <div class="art">
     <a href="./">BACK</a>
     <hr>
-    <img src="img/Harlege6.jpg" height="500" style="display:inline-block;"><img src="img/Harlege10.jpg" height="500" style="display:inline-block;">
+    <img src="img/Harlege6.jpg" height="500" style="display:inline-block;">
+      <img src="img/Harlege10.jpg" height="500" style="display:inline-block;">
     <br><u>Harlege</u>, 2024
   </div>
 

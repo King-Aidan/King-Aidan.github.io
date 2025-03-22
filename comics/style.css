@@ -27,6 +27,7 @@ body {
     top: 172px;
     left: 328px;
     overflow: scroll;
+    z-index: -4;
 }
 
 .sketchbook {
@@ -48,7 +49,6 @@ body {
     transform: translate(-50%, 0);
     display: none;
 }
-
 
 table {
   margin: auto;
