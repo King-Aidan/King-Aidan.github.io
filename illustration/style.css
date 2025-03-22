@@ -90,10 +90,18 @@ color: black;
   display: inherit;
 }
 
+.doublehiding {
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
 
 .hiding {
   display: none;
+}
+
+.doublehiding {
+  display: inherit;
 }
 
 .art {
@@ -145,9 +153,20 @@ color: black;
 }
 
 .content {
-  width: 100px;
-  height: 250px;
+  width: 42vw;
+  height: 42vw;
   overflow: hidden;
+}
+
+table {
+  margin: auto;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+td {
+  width: 50%;
 }
 
 }
