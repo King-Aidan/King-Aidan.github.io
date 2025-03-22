@@ -145,9 +145,20 @@ color: black;
 }
 
 .content {
-  width: 100px;
-  height: 250px;
+  width: 42vw;
+  height: 42vw;
   overflow: hidden;
+}
+
+table {
+  margin: auto;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+td {
+  width: 50%;
 }
 
 }
