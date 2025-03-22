@@ -5,12 +5,19 @@
   font-style: normal;
 }
 
+
+@font-face {
+  font-family: 'Numbers';
+  src: url('LearnWriteDEMO.ttf') format('truetype');
+  unicode-range: U+30-39,U+00A9;
+}
+
 body {
     background-image: url("img/AVBackground.jpg");
     background-size:100% 100%;
     background-attachment: fixed;
     margin: 0;
-    font-family: "Aidan";
+    font-family: "Aidan", "Numbers";
 }
 
 
@@ -50,6 +57,12 @@ body {
     display: none;
 }
 
+#copyright {
+  position: absolute;
+  top: 790px;
+  left: 1230px;
+}
+
 .hiding {
   display:inline-block;
 }
@@ -58,6 +71,15 @@ body {
 
 .hiding {
   display: none;
+}
+
+#copyright {
+  color: white;
+  mix-blend-mode: difference;
+  position: absolute;
+  top: 97%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .art {
