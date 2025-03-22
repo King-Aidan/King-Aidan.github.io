@@ -89,11 +89,18 @@ color: black;
 .hiding {
   display: inherit;
 }
+.doublehiding {
+  display: none;
+}
 
 @media only screen and (max-width: 600px) {
 
 .hiding {
   display: none;
+}
+
+.doublehiding {
+  display: inherit;
 }
 
 .art {
