@@ -9,6 +9,7 @@
   font-family: 'Numbers';
   src: url('../LearnWriteDEMO.ttf') format('truetype');
   unicode-range: U+30-39;
+  size-adjust: 80%;
 }
 
 body {
@@ -41,6 +42,55 @@ body {
     z-index: -5;
 }
 
+/* img:active {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(2); 
+  border: 100vw solid rgba(0, 0, 0, 0.8);
+} */
+
+.zoom
+ {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 100vw solid rgba(0, 0, 0, 0.8);
+ }
+
+#violence {
+  display:none;
+}
+
+#storm {
+  display:none;
+}
+
+#harlege1 {
+  display:none;
+}
+
+#harlege2 {
+  display:none;
+}
+
+#you {
+  display:none;
+}
+
+#snack1 {
+  display:none;
+}
+
+#snack2 {
+  display:none;
+}
+
+#interest {
+  display:none;
+}
+
 #home {
   position: absolute;
   top: 3px;
@@ -52,7 +102,7 @@ body {
 .phonenavigation {
     position: fixed;
     width: 89%;
-    top: 3%;
+    top: 60px;
     left: 50%;
     transform: translate(-50%, 0);
     display: none;
@@ -60,34 +110,16 @@ body {
 
 table {
   margin: auto;
-  width: 100v;
-  table-layout: fixed;
+  width: 100%;
+  table-layout:auto;
   border-collapse: collapse;
+  align-items: center;
 }
 
 td {
-  width: 25%;
-}
-
-img {
-  display: block;
-}
-
-.content {
-  width: 250px;
-  height: 250px;
-  overflow: hidden;
-}
-
-/* take care of portrait orientation or ratio */
-
-html {
-  height: 100%;
-  width: 100%;
-}
-
-table {
-  max-width: 100vw;
+  width: 50%;
+  vertical-align: bottom;
+  text-align: center;
 }
 
 a {
@@ -112,8 +144,8 @@ color: black;
 }
 
 .art {
-  width: 85.4vw;
-  height: 78vh;
+  width: 85.4%;
+  height: 78%;
   top: 54%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -157,23 +189,6 @@ color: black;
     position: absolute;
     right: 0;
     top: 0;
-}
-
-.content {
-  width: 42vw;
-  height: 42vw;
-  overflow: hidden;
-}
-
-table {
-  margin: auto;
-  width: 100%;
-  table-layout: fixed;
-  border-collapse: collapse;
-}
-
-td {
-  width: 50%;
 }
 
 }

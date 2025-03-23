@@ -10,6 +10,7 @@
   font-family: 'Numbers';
   src: url('LearnWriteDEMO.ttf') format('truetype');
   unicode-range: U+30-39,U+00A9;
+  size-adjust: 80%;
 }
 
 body {
