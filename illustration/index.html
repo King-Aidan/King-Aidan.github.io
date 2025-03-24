@@ -24,17 +24,19 @@
         </a>
       </div>
       </div>
-      
-      <script>
-        function myFunction() {
-          var x = document.getElementById("myLinks");
-          if (x.style.display === "block") {
-            x.style.display = "none";
-          } else {
-            x.style.display = "block";
-          }
-        }
-      </script>
+
+      <script src="script.js"></script>
+
+      <img src="img/Cape of Imagination.jpg" height="100%" class="zoom" id="cape" onclick="enlargecape()">
+      <img src="img/Celestial Alphabet Light.jpg" height="100%" class="zoom" id="alpha" onclick="enlargealpha()">
+      <img src="img/ChicagoDocks2024.jpg" height="100%" class="zoom" id="docks" onclick="enlargedocks()">
+      <img src="img/ItsSoFunny2023.jpg" height="100%" class="zoom" id="funny" onclick="enlargefunny()">
+      <img src="img/LetsGoLesbians2023.jpg" height="100%" class="zoom" id="lesbians" onclick="enlargelesbians()">
+      <img src="img/MessyEater2023.jpg" height="100%" class="zoom" id="messy" onclick="enlargemessy()">
+      <img src="img/Pinup Cowboy Signed.jpg" height="100%" class="zoom" id="pinup" onclick="enlargepinup()">
+      <img src="img/PortraitofZach2023.jpg" height="100%" class="zoom" id="zach" onclick="enlargezach()">
+      <img src="img/AidanVanderwillProj1Emoji.jpg" width="100%" class="zoom" id="emoji" onclick="enlargeemoji()">
+      <img src="img/TheVoices2023.jpg" height="100%" class="zoom" id="voices" onclick="enlargevoices()">
 
 <div class="hiding"><a href="../"><div id="home"></div></a></div>
 <div class="art">
@@ -43,88 +45,120 @@
     <table>
       <tr>
         <td>
-          <a href="capeofimagination"><div class="content"><img src="img/Cape of Imagination.jpg" width="250"></div></a>
+          <img src="img/Cape of Imagination.jpg" height="350" onclick="enlargecape()">
+          <br>
+          <u>Cape of Imagination</u>,
         </td>
         <td>
-          <a href="celestialalphabet"><div class="content"><img src="img/Celestial Alphabet Light.jpg" height="250"></div></a>
-        </td>
-        <td>
-          <a href="chicagodocks"><div class="content"><img src="img/ChicagoDocks2024.jpg" height="250"></div></a>
-        </td>
-        <td>
-          <a href="itssofunny"><div class="content"><img src="img/ItsSoFunny2023.jpg" width="250"></div></a>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <a href="letsgolesbian"><div class="content"><img src="img/LetsGoLesbians2023.jpg" width="250"></div></a>
-        </td>
-        <td>
-          <a href="messyeater"><div class="content"><img src="img/MessyEater2023.jpg" height="250"></div></a>
-        </td>
-        <td>
-          <a href="pinupcowboy"><div class="content"><img src="img/Pinup Cowboy Signed.jpg" width="250"></div></a>
-        </td>
-        <td>
-          <a href="portraitofzach"><div class="content"><img src="img/PortraitofZach2023.jpg" width="250"></div></a>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <div width="250"></div>
-        </td>
-        <td>
-          <a href="Proj1Emoji"><div class="content"><img src="img/AidanVanderwillProj1Emoji.jpg" height="250"></div></a>
-        </td>
-        <td>
-          <a href="thevoices"><div class="content"><img src="img/TheVoices2023.jpg" width="250"></div></a>
+          <img src="img/Celestial Alphabet Light.jpg" height="350" onclick="enlargealpha()">
+          <br>
+          <u>Celestial Alphabet</u>,
         </td>
       </tr>
     </table>
-  </div>
-  <div class="doublehiding">
+    <hr>
     <table>
       <tr>
         <td>
-          <a href="capeofimagination"><div class="content"><img src="img/Cape of Imagination.jpg" width="200"></div></a>
+          <img src="img/ChicagoDocks2024.jpg" height="350" onclick="enlargedocks()">
+          <br>
+          <u>Chicago Docks</u>, 2024
         </td>
         <td>
-          <a href="celestialalphabet"><div class="content"><img src="img/Celestial Alphabet Light.jpg" height="200"></div></a>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <a href="chicagodocks"><div class="content"><img src="img/ChicagoDocks2024.jpg" height="200"></div></a>
-        </td>
-        <td>
-          <a href="itssofunny"><div class="content"><img src="img/ItsSoFunny2023.jpg" width="200"></div></a>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <a href="letsgolesbian"><div class="content"><img src="img/LetsGoLesbians2023.jpg" width="200"></div></a>
-        </td>
-        <td>
-          <a href="messyeater"><div class="content"><img src="img/MessyEater2023.jpg" height="200"></div></a>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <a href="pinupcowboy"><div class="content"><img src="img/Pinup Cowboy Signed.jpg" width="200"></div></a>
-        </td>
-        <td>
-          <a href="portraitofzach"><div class="content"><img src="img/PortraitofZach2023.jpg" width="200"></div></a>
-        </td>
-      </tr>
-        <td>
-          <a href="Proj1Emoji"><div class="content"><img src="img/AidanVanderwillProj1Emoji.jpg" height="200"></div></a>
-        </td>
-        <td>
-          <a href="thevoices"><div class="content"><img src="img/TheVoices2023.jpg" width="200"></div></a>
+          <img src="img/ItsSoFunny2023.jpg" height="350" onclick="enlargefunny()">
+          <br>
+          <u>It's So Funny</u>, 2023
         </td>
       </tr>
     </table>
-
+    <hr>
+    <table>
+      <tr>
+        <td>
+          <img src="img/LetsGoLesbians2023.jpg" height="350" onclick="enlargelesbians()">
+          <br>
+          <u>Let's Go Lesbians</u>, 2023
+        </td>
+        <td>
+          <img src="img/MessyEater2023.jpg" height="350" onclick="enlargemessy()">
+          <br>
+          <u>Messy Eater</u>, 2023
+        </td>
+      </tr>
+    </table>
+    <hr>
+    <table>
+      <tr>
+        <td>
+          <img src="img/Pinup Cowboy Signed.jpg" height="350" onclick="enlargepinup()">
+          <br>
+          <u>Pinup Cowboy</u>,
+        </td>
+        <td>
+          <img src="img/PortraitofZach2023.jpg" height="350" onclick="enlargezach()">
+          <br>
+          <u>Portrait of Zach</u>, 2023
+        </td>
+      </tr>
+    </table>
+    <hr>
+    <table>
+      <tr>
+        <td>
+          <img src="img/AidanVanderwillProj1Emoji.jpg" height="350" onclick="enlargeemoji()">
+          <br>
+          <u>Project Emoji</u>,
+        </td>
+        <td>
+          <img src="img/TheVoices2023.jpg" height="350" onclick="enlargevoices()">
+          <br>
+          <u>The Voices</u>, 2023
+        </td>
+      </tr>
+    </table>
+  <br>
+  </div>
+  <div class="doublehiding">
+    
+          <img src="img/Cape of Imagination.jpg" width="100%">
+          <br>
+          <u>Cape of Imagination</u>,
+          <hr>
+          <img src="img/Celestial Alphabet Light.jpg" width="100%">
+          <br>
+          <u>Celestial Alphabet</u>,
+          <hr>
+          <img src="img/ChicagoDocks2024.jpg" width="100%">
+          <br>
+          <u>Chicago Docks</u>, 2024
+          <hr>
+          <img src="img/ItsSoFunny2023.jpg" width="100%">
+          <br>
+          <u>It's So Funny</u>, 2023
+          <hr>
+          <img src="img/LetsGoLesbians2023.jpg" width="100%">
+          <br>
+          <u>Let's Go Lesbians</u>, 2023
+          <hr>
+          <img src="img/MessyEater2023.jpg" width="100%">
+          <br>
+          <u>Messy Eater</u>, 2023
+          <hr>
+          <img src="img/Pinup Cowboy Signed.jpg" width="100%">
+          <br>
+          <u>Pinup Cowboy</u>,
+          <hr>
+          <img src="img/PortraitofZach2023.jpg" width="100%">
+          <br>
+          <u>Portrait of Zach</u>, 2023
+          <hr>
+          <img src="img/AidanVanderwillProj1Emoji.jpg" width="100%">
+          <br>
+          <u>Project Emoji</u>,
+          <hr>
+          <img src="img/TheVoices2023.jpg" width="100%">
+          <br>
+          <u>The Voices</u>, 2023
   </div></div>
 
   <div class="sketchbook"></div>

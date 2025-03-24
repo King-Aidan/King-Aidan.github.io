@@ -42,6 +42,57 @@ body {
     z-index: -5;
 }
 
+
+.zoom
+ {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 100vw solid rgba(0, 0, 0, 0.8);
+  z-index: 5;
+ }
+
+#cape {
+  display:none;
+}
+
+#alpha {
+  display:none;
+}
+
+#docks {
+  display:none;
+}
+
+#funny {
+  display:none;
+}
+
+#lesbians {
+  display:none;
+}
+
+#messy {
+  display:none;
+}
+
+#pinup {
+  display:none;
+}
+
+#zach {
+  display:none;
+}
+
+#emoji {
+  display:none;
+}
+
+#voices {
+  display:none;
+}
+
 #home {
   position: absolute;
   top: 3px;
@@ -50,46 +101,30 @@ body {
   height: 151px
 }
 
+
 .phonenavigation {
-    position: fixed;
-    width: 89%;
-    top: 3%;
-    left: 50%;
-    transform: translate(-50%, 0);
-    display: none;
+  position: fixed;
+  width: 89%;
+  /* top: 8%; */
+  top: 70px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: none;
 }
 
 
 table {
   margin: auto;
-  width: 100v;
-  table-layout: fixed;
+  width: 100%;
+  table-layout:auto;
   border-collapse: collapse;
+  align-items: center;
 }
 
 td {
-  width: 25%;
-}
-
-img {
-  display: block;
-}
-
-.content {
-  width: 250px;
-  height: 250px;
-  overflow: hidden;
-}
-
-/* take care of portrait orientation or ratio */
-
-html {
-  height: 100%;
-  width: 100%;
-}
-
-table {
-  max-width: 100vw;
+  width: 50%;
+  vertical-align: bottom;
+  text-align: center;
 }
 
 a {
