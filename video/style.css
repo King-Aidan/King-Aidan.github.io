@@ -106,24 +106,22 @@ color: black;
   display: none;
 }
 
+body {
+  background-image: url("../img/sketchbook-phone-ni.png");
+}
+
 .art {
-  width: 85.4vw;
-  height: 78vh;
-  top: 54%;
+  width: 90%;
+  height: 75vh;
+  /* top: 16%; */
+  top: 145px;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 0);
   z-index: -1;
 }
 
 .sketchbook {
-  background-image: url("../img/sketchbook-phone-ni.png");
-  background-size: 100% 100%;
-  position: absolute;
-  width: 95vw;
-  height: 100vh;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  display: none;
 }
 
 
