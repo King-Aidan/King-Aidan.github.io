@@ -50,13 +50,15 @@ background-image: url("../img/sketchbook2.png");
   height: 151px
 }
 
+
 .phonenavigation {
-    position: fixed;
-    width: 89%;
-    top: 3%;
-    left: 50%;
-    transform: translate(-50%, 0);
-    display: none;
+  position: fixed;
+  width: 89%;
+  /* top: 8%; */
+  top: 70px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: none;
 }
 
 .hiding {
