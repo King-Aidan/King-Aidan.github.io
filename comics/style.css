@@ -103,7 +103,8 @@ body {
 .phonenavigation {
     position: fixed;
     width: 89%;
-    top: 8%;
+    /* top: 8%; */
+    top: 60px;
     left: 50%;
     transform: translate(-50%, 0);
     display: none;
@@ -151,7 +152,8 @@ body {
 .art {
   width: 90%;
   height: 80%;
-  top: 16%;
+  /* top: 16%; */
+  top: 133px;
   left: 50%;
   transform: translate(-50%, 0);
   z-index: -1;
