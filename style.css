@@ -85,6 +85,10 @@ body {
   transform: translate(-50%, -50%);
 }
 
+body {
+  background-image: url("../img/sketchbook-phone-ni.png");
+}
+
 .art {
   width: 90%;
   height: 75vh;
