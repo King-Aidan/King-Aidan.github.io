@@ -131,6 +131,25 @@ body {
     top: 0;
 }
 
+@media only screen and (max-width: 2560px) {
+
+  .art {
+    font-size: 45px;
+    width: 1615.5px;
+    height: 918px;
+    top: 258px;
+    left: 492px;
+}
+
+.sketchbook {
+    width: 2025px;
+    height: 1185px;
+    top: 4.5px;
+    left: 112.5px;
+}
+
+}
+
 }
   
   table {
