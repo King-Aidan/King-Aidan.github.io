@@ -60,6 +60,7 @@ body {
   left: 50%;
   transform: translate(-50%, 0);
   display: none;
+  z-index: 3;
 }
 
 .hiding {
@@ -126,7 +127,6 @@ body {
   top: 145px;
   left: 50%;
   transform: translate(-50%, 0);
-  z-index: -1;
 }
 
 .sketchbook {
