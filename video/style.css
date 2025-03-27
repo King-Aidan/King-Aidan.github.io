@@ -114,6 +114,12 @@ body {
 }
 
 .art {
+  position: absolute;
+  font-size: 2em;
+  margin: 0;
+  padding: 0;
+  overflow: scroll;
+  background-image: none;
   width: 90%;
   height: 75vh;
   /* top: 16%; */
@@ -124,7 +130,8 @@ body {
 }
 
 .sketchbook {
-  display: none;
+  background-image: none;
+  position: relative;
 }
 
 

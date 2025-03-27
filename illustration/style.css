@@ -132,19 +132,11 @@ a {
 color: black;
 }
 
-.hiding {
-  display: inherit;
-}
-
 .doublehiding {
   display: none;
 }
 
 @media only screen and (max-width: 600px) {
-
-.hiding {
-  display: none;
-}
 
 .doublehiding {
   display: inherit;
@@ -155,6 +147,16 @@ body {
 }
 
 .art {
+  display: none;
+}
+
+.sketchbook {
+  position: absolute;
+  font-size: 2em;
+  margin: 0;
+  padding: 0;
+  overflow: scroll;
+  background-image: none;
   width: 90%;
   height: 75vh;
   /* top: 16%; */
@@ -162,10 +164,6 @@ body {
   left: 50%;
   transform: translate(-50%, 0);
   z-index: -1;
-}
-
-.sketchbook {
-  display: none;
 }
 
 
