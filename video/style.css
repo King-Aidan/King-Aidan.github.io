@@ -21,25 +21,26 @@ body {
     font-family: 'Aidan', 'Numbers';
 }
 
-.art {
-  position: absolute;
-  font-size: 30px;
-  width: 1077px;
-  height: 612px;
-  top: 172px;
-  left: 328px;
-  overflow: scroll;
+.sketchbook {
+  background-image: url("../img/sketchbook2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-width: 90vw;
+  aspect-ratio: 3.5 / 2;
+  margin: 2% auto;
+  padding: 10px;
+  position: relative; /*stacking context for absolute elements */
 }
 
-.sketchbook {
-background-image: url("../img/sketchbook2.png");
-  background-size: cover;
+.art {
   position: absolute;
-  width: 1350px;
-  height: 790px;
-  top: 3px;
-  left: 75px;
-  z-index: -5;
+  color: black;
+  font-size: 3em;
+  width: 78.5%;
+  aspect-ratio: 3.5 / 2;
+  left: 19%;
+  top: 21%;
+  overflow: scroll;
 }
 
 #home {
