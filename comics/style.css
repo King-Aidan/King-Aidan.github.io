@@ -27,7 +27,7 @@ body {
   background-repeat: no-repeat;
   max-width: 90vw;
   aspect-ratio: 3.5 / 2;
-  margin: 2% auto;
+  margin: 0 auto;
   padding: 10px;
   position: relative; /*stacking context for absolute elements */
 }
